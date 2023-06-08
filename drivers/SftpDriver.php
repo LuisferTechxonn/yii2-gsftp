@@ -11,6 +11,7 @@ use \phpseclib\Net\SFTP;
 use \phpseclib\Crypt\RSA;
 use \Yii;
 use yii\base\BaseObject;
+use yii\base\Object;
 
 /**
  * SFTP (SSH) connection driver.
@@ -24,7 +25,7 @@ use yii\base\BaseObject;
  * @property-write string|null $privateKeyFile
  * @property FtpFileListConverter $fileListConverter
  */
-class SftpDriver extends BaseObject implements RemoteDriver {
+class SftpDriver extends Object implements RemoteDriver {
 	
 	/**
 	 * @var SFTP SFTP Handle
