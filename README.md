@@ -8,6 +8,8 @@ SFtp is a FTP extension for [YII 2 Framework](http://www.yiiframework.com) based
 
 Based on [yii2-gsftp](https://github.com/hguenot/yii2-gsftp) **Thanks man**.
 
+Main change from the original package, this package has been prepared for make it work with local project which needs of specific versions of php, yii... etc. 
+
 Installation
 ------------
 
