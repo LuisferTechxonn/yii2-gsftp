@@ -1,4 +1,4 @@
-[![Latest Stable Version](https://poser.pugx.org/hguenot/yii2-gsftp/v/stable)](https://packagist.org/packages/hguenot/yii2-gsftp)
+[![Latest Stable Version](https://poser.pugx.org/hguenot/yii2-gsftp/v/stable)](https://packagist.org/packages/luisfertechxonn/yii2-gsftp)
 [![License](https://poser.pugx.org/hguenot/yii2-gsftp/license)](https://packagist.org/packages/hguenot/yii2-gsftp)
 
 SFtp
