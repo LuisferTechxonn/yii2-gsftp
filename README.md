@@ -1,11 +1,12 @@
 [![Latest Stable Version](https://poser.pugx.org/hguenot/yii2-gsftp/v/stable)](https://packagist.org/packages/hguenot/yii2-gsftp)
-[![Total Downloads](https://poser.pugx.org/hguenot/yii2-gsftp/downloads)](https://packagist.org/packages/hguenot/yii2-gsftp)
 [![License](https://poser.pugx.org/hguenot/yii2-gsftp/license)](https://packagist.org/packages/hguenot/yii2-gsftp)
 
 SFtp
 ====
 SFtp is a FTP extension for [YII 2 Framework](http://www.yiiframework.com) based on 
 [Yii2-gftp](https://github.com/hguenot/yii2-gftp) extension.
+
+Based on [yii2-gsftp](https://github.com/hguenot/yii2-gsftp) **Thanks man**.
 
 Installation
 ------------
@@ -15,13 +16,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist hguenot/yii2-gsftp "*"
+php composer.phar require --prefer-dist luisfertechxonn/yii2-gsftp "*"
 ```
 
 or add
 
 ```
-"hguenot/yii2-gsftp": "*"
+"luisfertechxonn/yii2-gsftp": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -71,6 +72,27 @@ return [
 	],
 	// [...]
 ];
+```
+
+* You can user directly loading the main library:
+
+```php
+use gftp\drivers\SftpDriver;
+
+    /**
+     * Function that will create the object with users and passwords
+	 * Do not forget to control the exceptions and errors!!!!!
+     */
+    public function FTPClient(p)
+    {
+        $sftp = new SftpDriver();
+        $sftp->setHost("host.host.es");
+        $sftp->setUser("LuisferParra");
+        $sftp->setPass("TheAmazingPassword123456");
+        $sftp->connect();
+        $sftp->login();
+    }
+
 ```
 
 
