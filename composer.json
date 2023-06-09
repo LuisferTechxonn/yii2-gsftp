@@ -1,7 +1,7 @@
 {
     "name": "luisfertechxonn/yii2-gsftp",
     "description": "Ftp is a FTP extension for [YII 2 Framework](http://www.yiiframework.com).",
-    "type": "yii2-extension",
+    "type": "composer",
     "keywords": ["yii2","extension", "gftp"],
     "license": "GPL-3.0+",
     "authors": [
