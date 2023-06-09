@@ -1,7 +1,7 @@
 {
     "name": "luisfertechxonn/yii2-gsftp",
     "description": "Ftp is a FTP extension for [YII 2 Framework](http://www.yiiframework.com).",
-    "type": "yii2-extension",
+    "type": "composer",
     "minimum-stability": "dev",
 
     "keywords": ["yii2","extension", "gftp"],
@@ -10,9 +10,6 @@
         {
             "name": "Hervé Guenot",
             "email": "herve@guenot.info"
-        },
-        {
-            "name": "Luisfer (Minimal Update for Accomodate Solution"
         }
     ],
     "require": {
@@ -29,10 +26,5 @@
             "gftp\\": ""
         },
         "files": ["autoload.php"]
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.1"
-        }
     }
 }
